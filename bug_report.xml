@@ -1,1 +1,14 @@
-
+<?xml version = "1.0"?>
+<Bug_report>
+   <ID>FC0D114S</ID>
+   <Summary>Login error</Summary>
+   <Steps_to_reproduce>
+	1. Go to http:/somebadsite.com/login
+    2. Write in login field ‘Aleks’
+    3. Write in password ‘123456qwerty’
+    4. Click button ‘Login’
+	</Steps_to_reproduce>
+   <Actual_result>Redirection to http:/shithappens.by</Actual_result>
+   <Expected_result>Redirection to privat Aleks cabinet in http:/somebadsite.com</Expected_result>
+   <Severity>S1 Blocker</Severity>
+</Bug_report>
